@@ -49,6 +49,7 @@
 
 - 作者特征群：
     - 资讯特征群的统计特征
+        - ...
     - 作者名及资讯标签文本特征
         - ngrams 
         - tfidf
@@ -87,11 +88,11 @@
 ---
 - 仅用数值型特征 models
     - lgb：线下 auc 0.769
-
     - xgb: 待续
 ![lgb_cv](pictures/lgb_cv.png)   
 
-    
+![feats_importance](pictures/feats_importance.png)   
+
 - 最终模型：线下 auc 0.8276
 
 ![stacking](pictures/stacking.png)
