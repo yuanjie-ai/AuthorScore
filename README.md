@@ -83,6 +83,7 @@
     
     - 字 + tfidf + lr：线下 auc 0.7185
     - 字 + lstm：线下 auc 0.6714
+    - 字 + bilstm：线下 auc 0.7604
    
 
 ---
