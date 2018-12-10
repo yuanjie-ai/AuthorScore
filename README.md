@@ -79,7 +79,11 @@
 - 仅用作者名文本特征 models
     - 分词 + tfidf + lr：线下 auc 0.6877
     - 分词 + 去停用词 + tfidf + lr：线下 auc 0.7077
+    - 分词 + lstm：线下 auc 0.6562
+    
     - 字 + tfidf + lr：线下 auc 0.7185
+    - 字 + lstm：线下 auc 0.6714
+   
 
 ---
 - 仅用资讯标签文本拼接特征 models
